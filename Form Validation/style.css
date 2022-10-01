@@ -1,0 +1,108 @@
+body{
+    background-color: #8ec5fc;
+    background-image: linear-gradient(90deg, #8EC5FC 0%, #E0C3FC 50%, #ffffff 100%);
+    padding-top: 40px;
+    margin: 0px 0px;
+}
+.main{
+    margin: 0px auto;
+    background-color: #ffffff;
+    width: 450px;
+    height: 565px;
+    border-radius: 2px;
+    padding-left: 30px;
+
+    box-shadow: -6px -3px 12px 1px rgba(133,88,201,0.46);
+}
+.h1{
+    padding-top: 9px;
+    padding-left: 50px;
+    font-family:sans-serif;
+    color: rgb(28 53 177);
+}
+.top-head{
+    margin-top: 20px;
+    height: 50px;
+    /* text-align: center; */
+    /* background-color: #fd5c63; */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(90deg, #8EC5FC 0%, #E0C3FC 50%, #ffffff 100%);
+    margin-left: -30px;
+    border-top-left-radius: 2px ;
+    border-top-right-radius: 2px;
+    
+}
+input:focus-visible {
+    outline: none;
+    border: none;
+}
+.first{
+    display: flex;
+    margin-left: 10px;
+    width: 380px;
+    height: 50px;
+    /* background-color: rgb(254, 255, 177); */
+    /* background-color: #fd5c63; */
+    background-color: transparent;
+    border-bottom: 2px solid #8ec5fc;
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin-top: 30px;
+    margin-right: 20px;
+
+}
+.name{
+    margin: 5px 7px 0px 7px;
+    width: 40px;
+}
+.ziplogo{
+    margin: 1px 7px 0px 2x;
+    width: 53px;
+
+}
+.input{
+    width: 300px;
+    height: 30px;
+    margin: 10px 0px 0px 18px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-weight:600;
+}
+
+::placeholder{
+    color: #929292;
+    font-family:monospace;
+}
+.btn{
+    width: 180px;
+    height: 40px;
+    font-size:x-large;
+    border-radius: 12px;
+    /* border: none; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    box-shadow:1px 1px ;
+    margin: 10px 0px 0px 100px;
+
+    background-color: white; 
+    color: black; 
+    border: 2px solid #8ec5fc;
+    transition-duration: 0.4s;
+    }
+  
+  .btn:hover {
+    background-color: #f76258;
+    /* color: white; */
+    background-color: #8ec5fc;
+    background-image: linear-gradient(90deg, #8EC5FC 0%, #E0C3FC 50%, #ffffff 100%);
+  }
+  .btn:active {
+    color: rgb(0, 0, 0);
+    margin: 11px 0px 0px 101px;
+  }
+.submit-btn{
+    background-color: transparent;
+    border-bottom: 0px;
+}
+

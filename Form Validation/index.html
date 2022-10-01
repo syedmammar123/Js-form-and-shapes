@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form validation</title>
+</head>
+<body>
+   <div class="main">
+    <div class="top-head"><h1 class="h1">User Info</h1></div>
+    
+    <div class="first"><div><img class="name" src="/images/name.png" alt=""></div><div><input onblur='fnamevalid()' id="fname" class="input" placeholder="First Name" type="text"></div></div>
+    <div class="first"><div><img class="name" src="/images/name.png" alt=""></div><div><input onblur="lnamevalid()" id="lname" class="input" placeholder="Last Name" type="text"></div></div>
+    <div class="first"><div><img class="ziplogo" src="/images/zip.png" alt=""></div><div><input onblur="zipvalid()" id="zip" class="input" placeholder="Zipcode"  type="text"></div></div>
+    <div class="first"><div><img class="name" src="/images/phone.png" alt=""></div><div><input onblur="numbervalid()" id="number" class="input" placeholder="Phone Number" type="text"></div></div>
+	<div class="first"><div><img class="name" src="/images/email.png" alt=""></div><div><input onblur="emailvalid()" id="email" class="input" placeholder="Email Address" type="text"></div></div>
+
+    
+	<div class="first submit-btn"><div><button class="btn" onclick="submition()"  type="submit">Submit</button></div></div>
+
+
+    </div>
+
+
+
+    
+<script src="app.js"></script>    
+
+</body>
+</html>
